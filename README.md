@@ -26,7 +26,7 @@ Para executar o projeto localmente, siga os passos abaixo:
       ```sh
     npm install
    ```
-3.Inicie o servidor de desenvolvimento:
+3. Inicie o servidor de desenvolvimento:
    ```sh
     npm run dev
    ```
