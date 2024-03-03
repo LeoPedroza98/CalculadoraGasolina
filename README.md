@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Calculadora de Gasolina em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o Projeto
 
-Currently, two official plugins are available:
+Este projeto é uma **calculadora de gasolina** desenvolvida com o framework React. O objetivo principal é servir como um projeto de estudo para aprimorar minhas habilidades e conhecimentos no desenvolvimento de aplicações web com React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- **Cálculo de Consumo**: Permite calcular o consumo de gasolina baseado na distância percorrida e no consumo médio do veículo.
+- **Interface Intuitiva**: Uma interface de usuário simples e amigável que facilita a inserção dos dados e visualização do cálculo.
+- **Responsividade**: Adaptável a diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis e desktops.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- React
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Como Executar
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para executar o projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```sh
+    git clone git@github.com:LeoPedroza98/CalculadoraGasolina.git
+   ```
+2. Instale as dependências:
+      ```sh
+    npm install
+   ```
+3.Inicie o servidor de desenvolvimento:
+   ```sh
+    npm run dev
+   ```
